@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Bar = () => {
   return (
     <div><Box sx={{ flexGrow: 1 }}>
-    <AppBar position="fixed" sx={{backgroundColor:'#626F47'}}>
+    <AppBar position="fixed" sx={{backgroundColor:'ThreeDLightShadow'}}>
       <Toolbar>
         <IconButton
           size="large"
@@ -20,7 +20,7 @@ const Bar = () => {
           sx={{ mr: 2 }}
         >
         </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1, color:'white',fontSize: '30px' }}>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1, color:'black',fontSize: '30px', fontFamily:'cursive' }}>
           Product App
         </Typography>
         <Link to={'/'}><Button sx={{ color: 'black', backgroundColor: '#FEFAE0', margin: 2, fontWeight: 20, fontSize: '18px',padding: '12px 24px' }}>Home</Button></Link>
